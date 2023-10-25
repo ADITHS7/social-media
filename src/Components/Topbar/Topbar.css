@@ -29,11 +29,51 @@
 }
 .search-icon{
   font-size: 24px !important;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+.search-input{
+  border: none;
+  width: 70%;
+  outline: none;
 }
 .topbar-right{
   flex: 4;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+}
+.topbar-link{
+  margin-right: 10px;
+  font-size: 14px;
+}
+.topbar-icons{
+  display: flex;
+ 
+}
+.topbar-icon-badge{
+  width: 16px;
+  height: 16px;
+  background-color: red;
+  border-radius: 50%;
+  color: white;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.topbar-icon-item{
+  margin-right: 15px;
+  cursor: pointer;
+  position: relative;
 }
 .topbar-img{
   width: 32px;
   height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
 }
