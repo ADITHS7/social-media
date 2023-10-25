@@ -1,8 +1,8 @@
 import React from 'react'
-import './feed.css'
+import './Feed.css'
 const feed = () => {
   return (
-    <div>feed</div>
+    <div className='feed'>feed</div>
   )
 }
 
