@@ -8,6 +8,12 @@ const feed = () => {
       <div className="feed-wrapper">
         <Share/>
         <Posts/>
+        <Posts/>
+        <Posts/>
+        <Posts/>
+        <Posts/>
+        <Posts/>
+        <Posts/>
 
       </div>
     </div>
