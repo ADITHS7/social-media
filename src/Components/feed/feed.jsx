@@ -1,8 +1,16 @@
 import React from 'react'
 import './Feed.css'
+import Share from '../Share/Share'
+import Posts from '../Posts/Posts'
 const feed = () => {
   return (
-    <div className='feed'>feed</div>
+    <div className='feed'>
+      <div className="feed-wrapper">
+        <Share/>
+        <Posts/>
+
+      </div>
+    </div>
   )
 }
 
