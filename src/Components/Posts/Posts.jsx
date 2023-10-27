@@ -19,7 +19,7 @@ const Posts = () => {
           <span className="post-text">
             Hey Its my first post
           </span>
-          <img src="assets/post/1.jpeg" alt="" />
+          <img className='post-img' src="assets/post/1.jpeg" alt="" />
         </div>
         <div className="post-bottom">
           <div className="post-bottom-left">
