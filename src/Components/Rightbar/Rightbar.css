@@ -46,6 +46,7 @@
   height: 40px;
   border-radius: 50%;
   object-fit: cover;
+  cursor: pointer;
 }
 .rightbar-online{
   width: 12px;
@@ -60,4 +61,5 @@
 }
 .rightbar-user-name{
   font-weight: 600;
+  cursor: pointer;
 }
